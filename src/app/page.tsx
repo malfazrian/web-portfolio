@@ -9,6 +9,7 @@ import SectionHeader from "@/components/SectionHeader";
 import ShowcaseCarousel from "@/components/ShowcaseCarousel";
 import TestimonyCard from "@/components/TestimonyCard";
 import { caseStudyData, testimonialsData } from "@/data/webData";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -88,6 +89,7 @@ export default function Home() {
         </Section>
         <Footer />
       </main>
+      <SpeedInsights />
     </section>
   );
 }
