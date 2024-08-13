@@ -2,7 +2,16 @@ import { ChevronRight } from "lucide-react";
 
 export default function ContactForm() {
   return (
-    <form className="flex flex-col gap-2 w-2/3 mx-auto sm:w-1/4">
+    <form
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      className="flex flex-col gap-2 w-2/3 mx-auto sm:w-1/4"
+    >
+      <input
+        type="hidden"
+        name="access_key"
+        value="5856a50c-20ed-4b38-bd1e-b851dd363101"
+      ></input>
       <label htmlFor="name">Name</label>
       <input
         type="text"
