@@ -13,7 +13,7 @@ export default function ShowcaseCard({
   description,
 }: ShowcaseCardProps) {
   return (
-    <div className="px-8 py-2 flex flex-col gap-2">
+    <div className="px-8 flex flex-col gap-2">
       <Image src={image} width="1000" height="1000" alt="project-picture" />
       <h2 className="text-2xl font-extrabold">{title}</h2>
       <h3>{description}</h3>

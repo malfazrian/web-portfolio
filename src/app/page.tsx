@@ -81,7 +81,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl">
             <SectionHeader
               title="Get in Touch"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              description="Interested in working together?"
             />
             <ContactForm />
           </div>

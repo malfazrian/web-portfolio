@@ -2,21 +2,21 @@ import { ChevronRight } from "lucide-react";
 
 export default function ContactForm() {
   return (
-    <form className="flex flex-col gap-2 w-1/4 mx-auto">
+    <form className="flex flex-col gap-2 w-2/3 mx-auto sm:w-1/4">
+      <label htmlFor="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        className="py-2 px-2 mb-2 rounded text-slate-900"
+      />
       <label htmlFor="email">Email</label>
       <input
         type="email"
         id="email"
         name="email"
         placeholder="Please enter your email"
-        className="py-2 px-2 mb-2 rounded text-slate-900"
-      />
-      <label htmlFor="number">Mobile</label>
-      <input
-        type="tel"
-        id="number"
-        name="number"
-        placeholder="Enter your mobile"
         className="py-2 px-2 mb-2 rounded text-slate-900"
       />
       <label>Message</label>
